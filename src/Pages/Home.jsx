@@ -42,46 +42,46 @@ const portfolioData = [
   {
     title: 'Conception 3D du rover',
     subtitle: 'Voir les détails',
-    href: 'https://benrover-24.github.io/docs',
+    href: 'https://benrover-docs.tekbot.io',
     src: '/images/Gallery/1.webp',
   },
   {
     title: 'Conception 3D du rover',
     subtitle: 'Voir les détails',
-    href: 'https://benrover-24.github.io/docs',
+    href: 'https://benrover-docs.tekbot.io',
     src: '/images/Gallery/2.webp',
   },
   {
     title: 'Conception 3D du rover',
     subtitle: 'Voir les détails',
-    href: 'https://benrover-24.github.io/docs',
+    href: 'https://benrover-docs.tekbot.io',
     src: '/images/Gallery/3.webp',
   },
   {
     title: 'Méchanique',
     subtitle: 'Voir les détails',
-    href: 'https://benrover-24.github.io/docs',
+    href: 'https://benrover-docs.tekbot.io',
     src: '/images/Gallery/4.webp',
   },
 
   {
     title: 'Impression 3D',
     subtitle: 'Voir les détails',
-    href: 'https://benrover-24.github.io/docs',
+    href: 'https://benrover-docs.tekbot.io',
     src: '/images/Gallery/5.webp',
   },
 
   {
     title: 'Electronique',
     subtitle: 'Voir les détails',
-    href: 'https://benrover-24.github.io/docs',
+    href: 'https://benrover-docs.tekbot.io',
     src: '/images/Gallery/6.webp',
   },
 
   {
     title: 'Electronique',
     subtitle: 'Voir les détails',
-    href: 'https://benrover-24.github.io/docs',
+    href: 'https://benrover-docs.tekbot.io',
     src: '/images/Gallery/7.webp',
   },
 ];
@@ -281,7 +281,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Informatique"
-                    link="https://benrover-24.github.io/docs/it"
+                    link="https://benrover-docs.tekbot.io/it"
                     src="/images/Departments/IT.png"
                     alt="IT Department"
                   />
@@ -291,7 +291,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Electronique"
-                    link="https://benrover-24.github.io/docs/electronics"
+                    link="https://benrover-docs.tekbot.io/electronics"
                     src="/images/Departments/Electronic.png"
                     alt="Electronic Department"
                   />
@@ -300,7 +300,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Mécanique"
-                    link="https://benrover-24.github.io/docs/mechanics"
+                    link="https://benrover-docs.tekbot.io/mechanics"
                     src="/images/Departments/Mechanic.png"
                     alt="Mechanic Department"
                   />
@@ -310,7 +310,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="Astronomie"
-                    link="https://benrover-24.github.io/docs/space"
+                    link="https://benrover-docs.tekbot.io/methodologies"
                     src="/images/Departments/Space.png"
                     alt="Space science Department"
                   />

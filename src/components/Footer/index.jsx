@@ -8,7 +8,7 @@ import './footer.scss';
 const copyrightLinks = [
   {
     title: 'Documentation',
-    href: 'https://benrover-24.github.io/docs',
+    href: 'https://benrover-docs.tekbot.io',
   },
   {
     title: 'Code Source',
