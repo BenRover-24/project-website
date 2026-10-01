@@ -93,7 +93,7 @@ export default function TeamPage() {
               </p>
             </Div>
             <Spacing lg="90" md="45" />
-            <Div className="col-lg-6 d-block d-lg-none d-xl-none">
+            {/*<Div className="col-lg-6 d-block d-lg-none d-xl-none">
               <img className='rounded-4 shadow' src="images/Project Management.webp" alt="Project Management" />
             </Div>
             <Div className="col-lg-6">
@@ -106,7 +106,7 @@ export default function TeamPage() {
                     <li>Assurer une gestion efficace de l'énergie et prévenir la surchauffe</li>
                 </ul>
               </p>
-            </Div>
+            </Div>*/}
             <Div className="col-lg-6 d-none d-lg-block d-xl-block">
               <img className='rounded-4 shadow' src="images/Project Management.webp" alt="Project Management" />
             </Div>

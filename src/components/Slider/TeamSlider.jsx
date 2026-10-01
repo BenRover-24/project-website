@@ -5,16 +5,6 @@ import Div from '../Div';
 import Team from '../Team';
 const teamData = [
   {
-    memberImage: '/images/Teams/Mohamed.png',
-    memberImage2: '/images/Teams2/Mohamed.png',
-    memberName: 'Mohamed SALIFOU',
-    memberDesignation: 'Program Manager',
-    memberSocial: {
-      linkedin: 'https://linkedin.com/in/mohamed-salifou-65ab18194',
-      github: 'https://github.com/moh-maker229',
-    },
-  },
-  {
     memberImage: '/images/Teams/Prudence.png',
     memberImage2: '/images/Teams2/Prudence.png',
     memberName: 'Prudence AYIVI',
