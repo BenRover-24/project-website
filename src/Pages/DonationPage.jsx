@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { pageTitle } from '../helper';
 import Div from '../components/Div';
 import SectionHeading from '../components/SectionHeading';
@@ -8,12 +8,6 @@ import './DonationPage.css';
 
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
 import { db } from '../firebase';
-
-const currencySigns = {
-  XOF: 'FCFA',
-  USD: '$',
-  EUR: '€'
-};
 
 const ProgressBar = ({ current, target }) => {
   const percentage = Math.min((current / target) * 100, 100);
@@ -47,7 +41,10 @@ export default function DonationPage() {
     EUR: 0
   });
 
-  const docRef = doc(db, process.env.REACT_APP_COLLECTION_NAME, process.env.REACT_APP_DOCUMENT_ID);
+  const docRef = useMemo(
+    () => doc(db, process.env.REACT_APP_COLLECTION_NAME, process.env.REACT_APP_DOCUMENT_ID),
+    []
+  );
 
   useEffect(() => {
     const fetchCrowdfundingData = async () => {
@@ -70,7 +67,7 @@ export default function DonationPage() {
     };
   
     fetchCrowdfundingData();
-  }, []);
+  }, [docRef]);
   
   pageTitle('Soutenir le projet');
   useEffect(() => {
@@ -161,7 +158,7 @@ export default function DonationPage() {
           setTimeout(() => setIsModalOpen(false), 3000);
         } else {
           // Update Firebase
-          const response = await fetch(process.env.REACT_APP_BACK+"/thank-mail?email="+formData["email"], {
+          await fetch(process.env.REACT_APP_BACK+"/thank-mail?email="+formData["email"], {
             method: "POST",
             headers: {
               "X-API-Key": process.env.REACT_APP_BACKKEY,

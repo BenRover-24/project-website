@@ -42,7 +42,7 @@ export default function PartnersPage() {
   const [description, setDescription] = useState("");
 
   // Submission status (success or error)
-  const [submissionStatus, setSubmissionStatus] = useState(null);
+  const [, setSubmissionStatus] = useState(null);
 
   // Modal toggle functions
   const handleClose = () => setShow(false);

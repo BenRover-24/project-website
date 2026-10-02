@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Div from '../Div';
 
 export default function PageHeading({ title, bgSrc, pageLinkText, subText }) {

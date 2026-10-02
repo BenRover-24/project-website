@@ -4,7 +4,6 @@ import './cta.scss'
 import Button from '../Button';
 import Div from '../Div';
 import Spacing from '../Spacing';
-import { NavLink } from 'react-router-dom';
 
 export default function Cta({title, btnText, btnLink, bgSrc, variant}) {
   return (

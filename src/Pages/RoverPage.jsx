@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { pageTitle } from '../helper';
 import Cta from '../components/Cta';
 import PageHeading from '../components/PageHeading';
